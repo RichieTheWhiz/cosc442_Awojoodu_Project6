@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.phptravels.net/admin<datalist><option>https://www.phptravels.net/admin</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=email<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>admin@phptravels.com</td>
+</tr>
+<tr><td>click</td><td>name=password<datalist><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option><option>name=password</option></datalist></td><td></td>
+</tr>
+<tr><td>doubleClick</td><td>name=password<datalist><option>name=password</option><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>name=email</option><option>//input[@name='email']</option><option>//input</option><option>css=input[name="email"]</option></datalist></td><td>demoadmin</td>
+</tr>
+<tr><td>click</td><td>//button[@type='button']<datalist><option>//button[@type='button']</option><option>//button</option><option>css=button.navbar-toggle.collapsed</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span<datalist><option>//span</option><option>css=span.ladda-label</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//a[contains(text(),'Modules')])[2]<datalist><option>xpath=(//a[contains(text(),'Modules')])[2]</option><option>//div[@id='navbar']/ul/li[4]/a</option><option>xpath=(//a[contains(@href, 'javascript:void(0)')])[4]</option><option>//li[4]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>mouseOver</td><td>//div[@id='navbar']/ul/li[4]/ul/li/a/span<datalist><option>//div[@id='navbar']/ul/li[4]/ul/li/a/span</option><option>//li[4]/ul/li/a/span</option><option>css=li.dropdown-submenu &gt; a &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Add New<datalist><option>link=Add New</option><option>//a[contains(text(),'Add New')]</option><option>//ul[@id='Tours']/li[2]/a</option><option>//a[contains(@href, 'https://www.phptravels.net/admin/tours/add/')]</option><option>//li[4]/ul/li/ul/li[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=tourname<datalist><option>name=tourname</option><option>//input[@name='tourname']</option><option>//div[@id='GENERAL']/div[3]/div/input</option><option>//input</option><option>css=input[name="tourname"]</option></datalist></td><td>richie</td>
+</tr>
+<tr><td>type</td><td>//html<datalist><option>//html</option><option>css=html</option></datalist></td><td>The Greatest Ever</td>
+</tr>
+<tr><td>type</td><td>name=maxadult<datalist><option>name=maxadult</option><option>//input[@name='maxadult']</option><option>//div[@id='GENERAL']/div[5]/div/table/tbody/tr[2]/td[2]/input</option><option>//td[2]/input</option><option>css=input[name="maxadult"]</option></datalist></td><td>5</td>
+</tr>
+<tr><td>type</td><td>name=adultprice<datalist><option>name=adultprice</option><option>//input[@name='adultprice']</option><option>//div[@id='GENERAL']/div[5]/div/table/tbody/tr[3]/td[2]/input</option><option>//tr[3]/td[2]/input</option><option>css=input[name="adultprice"]</option></datalist></td><td>250</td>
+</tr>
+<tr><td>click</td><td>name=tourstars<datalist><option>name=tourstars</option><option>//select[@name='tourstars']</option><option>//div[@id='GENERAL']/div[6]/div/select</option><option>//div[6]/div/select</option><option>css=select[name="tourstars"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//*[@id="s2id_autogen11"]/a/span[1]<datalist><option>//div[@id='GENERAL']/div[9]/label</option><option>//div[9]/label</option><option>//*[@id="s2id_autogen11"]/a/span[1]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@type='text'])[65]<datalist><option>xpath=(//input[@type='text'])[65]</option><option>//div[@id='select2-drop']/div/input</option><option>//div[8]/div/input</option><option>css=input.select2-input.select2-focused</option></datalist></td><td>Private</td>
+</tr>
+<tr><td>sendKeys</td><td>xpath=(//input[@type='text'])[65]<datalist><option>xpath=(//input[@type='text'])[65]</option><option>//div[6]/div/input</option><option>css=input.select2-input.select2-focused</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>clickAndWait</td><td>xpath=(//input[@type='text'])[65]<datalist><option>xpath=(//input[@type='text'])[65]</option><option>//div[@id='select2-drop']/div/input</option><option>//div[9]/div/input</option><option>css=#select2-drop &gt; div.select2-search &gt; input.select2-input.select2-focused</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>id=isfeatured<datalist><option>id=isfeatured</option><option>name=isfeatured</option><option>//select[@id='isfeatured']</option><option>//div[@id='GENERAL']/div[10]/div/select</option><option>//div[10]/div/select</option><option>css=#isfeatured</option></datalist></td><td>label=Yes</td>
+</tr>
+<tr><td>click</td><td>//*[@id="s2id_locationlist1"]/a<datalist><option>//*[@id="s2id_locationlist1"]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>xpath=(//input[@type='text'])[65]<datalist><option>xpath=(//input[@type='text'])[65]</option><option>//div[@id='select2-drop']/div/input</option><option>//div[8]/div/input</option><option>css=input.select2-input.select2-focused</option></datalist></td><td>tokyo</td>
+</tr>
+<tr><td>sendKeys</td><td>xpath=(//input[@type='text'])[65]<datalist><option>xpath=(//input[@type='text'])[65]</option><option>//div[@id='select2-drop']/div/input</option><option>//div[8]/div/input</option><option>css=input.select2-input.select2-focused</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>click</td><td>name=deposittype<datalist><option>name=deposittype</option><option>//select[@name='deposittype']</option><option>//div[@id='GENERAL']/div[13]/div/select</option><option>//div[13]/div/select</option><option>css=select[name="deposittype"]</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>name=deposittype<datalist><option>name=deposittype</option><option>//select[@name='deposittype']</option><option>//div[@id='GENERAL']/div[13]/div/select</option><option>//div[13]/div/select</option><option>css=select[name="deposittype"]</option></datalist></td><td>label=Percentage</td>
+</tr>
+<tr><td>click</td><td>name=taxtype<datalist><option>name=taxtype</option><option>//select[@name='taxtype']</option><option>//div[@id='GENERAL']/div[14]/div/select</option><option>//div[14]/div/select</option><option>css=select[name="taxtype"]</option></datalist></td><td></td>
+</tr>
+<tr><td>select</td><td>name=taxtype<datalist><option>name=taxtype</option><option>//select[@name='taxtype']</option><option>//div[@id='GENERAL']/div[14]/div/select</option><option>//div[14]/div/select</option><option>css=select[name="taxtype"]</option></datalist></td><td>label=Percentage</td>
+</tr>
+<tr><td>click</td><td>name=depositvalue<datalist><option>name=depositvalue</option><option>//input[@name='depositvalue']</option><option>//div[@id='GENERAL']/div[13]/div[2]/input</option><option>//div[13]/div[2]/input</option><option>css=input[name="depositvalue"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=depositvalue<datalist><option>name=depositvalue</option><option>//input[@name='depositvalue']</option><option>//div[@id='GENERAL']/div[13]/div[2]/input</option><option>//div[13]/div[2]/input</option><option>css=input[name="depositvalue"]</option></datalist></td><td>25</td>
+</tr>
+<tr><td>click</td><td>name=taxvalue<datalist><option>name=taxvalue</option><option>//input[@name='taxvalue']</option><option>//div[@id='GENERAL']/div[14]/div[2]/input</option><option>//div[14]/div[2]/input</option><option>css=input[name="taxvalue"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=taxvalue<datalist><option>name=taxvalue</option><option>//input[@name='taxvalue']</option><option>//div[@id='GENERAL']/div[14]/div[2]/input</option><option>//div[14]/div[2]/input</option><option>css=input[name="taxvalue"]</option></datalist></td><td>25</td>
+</tr>
+<tr><td>click</td><td>//div[@id='s2id_autogen13']/ul<datalist><option>//div[@id='s2id_autogen13']/ul</option><option>//div[15]/div/div/ul</option><option>css=ul.select2-choices</option></datalist></td><td></td>
+</tr>
+<tr><td>sendKeys</td><td>id=s2id_autogen14<datalist><option>id=s2id_autogen14</option><option>//input[@id='s2id_autogen14']</option><option>//div[@id='s2id_autogen13']/ul/li[2]/input</option><option>//li[2]/input</option><option>css=#s2id_autogen14</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>type</td><td>name=taxvalue<datalist><option>name=taxvalue</option><option>//input[@name='taxvalue']</option><option>//div[@id='GENERAL']/div[14]/div[2]/input</option><option>//div[14]/div[2]/input</option><option>css=input[name="taxvalue"]</option></datalist></td><td>25</td>
+</tr>
+<tr><td>sendKeys</td><td>id=s2id_autogen14<datalist><option>id=s2id_autogen14</option><option>//input[@id='s2id_autogen14']</option><option>//div[@id='s2id_autogen13']/ul/li[2]/input</option><option>//li[2]/input</option><option>css=#s2id_autogen14</option></datalist></td><td>${KEY_ENTER}</td>
+</tr>
+<tr><td>type</td><td>name=taxvalue<datalist><option>name=taxvalue</option><option>//input[@name='taxvalue']</option><option>//div[@id='GENERAL']/div[14]/div[2]/input</option><option>//div[14]/div[2]/input</option><option>css=input[name="taxvalue"]</option></datalist></td><td>25</td>
+</tr>
+<tr><td>click</td><td>id=mapaddress<datalist><option>id=mapaddress</option><option>name=tourmapaddress</option><option>//input[@id='mapaddress']</option><option>//div[@id='GENERAL']/div[16]/div[2]/div/table/tbody/tr/td[2]/input</option><option>//div[2]/div/table/tbody/tr/td[2]/input</option><option>css=#mapaddress</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=add<datalist><option>id=add</option><option>//button[@id='add']</option><option>//div[@id='content']/form/div/div[2]/button</option><option>//div[2]/button</option><option>css=#add</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
